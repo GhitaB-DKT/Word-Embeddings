@@ -91,7 +91,7 @@ La plupart des datasets se basent sur deux métriques : 3COSADD et 3COSMUL [[7]]
 ### <u> 4. Reproduction des résultats du papier PSDVec </u>
 #### 4.1 Explication détaillée de la publication introduisant PSDVec
 
-PSDVec (Positive-Semidefinite Vectors) [[4]](https://arxiv.org/pdf/1606.03192.pdf) est une méthode permettant l’apprentissage de prolongements de mots condensant l’information syntaxique et sémantique des mots composant le corpus fourni.
+PSDVec (Positive-Semidefinite Vectors) [[4]](https://arxiv.org/pdf/1606.03192.pdf) [Github repo](https://github.com/askerlee/topicvec/tree/master/psdvec) est une méthode permettant l’apprentissage de prolongements de mots condensant l’information syntaxique et sémantique des mots composant le corpus fourni.
 
 La méthode repose sur la factorisation matricielle d’une matrice calculée à partir de l’information mutuelle (PMI - Pointwise Mutual Information) obtenue via les probabilités d’occurrence des unigrammes et bigrammes des mots composant le corpus. La factorisation est réalisée à travers la décomposition de la matrice PMI, G, en valeurs vecteurs propres.
 
